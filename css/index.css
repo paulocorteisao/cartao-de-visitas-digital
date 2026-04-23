@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #000000 100%);
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    
+}
+.container{
+    margin-top: 40px;
+    max-width: 448px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.descricao img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    margin-bottom: 16px;
+}
+.descricao h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+.descricao p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 8px;
+}
+.text{
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+    margin-right: 250px;
+    margin-bottom: 8px;
+}
+.btn-one{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    border: 1px solid #333333;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    transition: all 300ms ease-in-out;
+}
+.btn-one:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+.btn-one:active {
+    transform: scale(0.95);
+}
+.btn-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 300ms ease;
+    margin-bottom: 40px;
+}
+
+.btn-cta:hover {
+    box-shadow: 0 12px 32px rgba(255, 255, 255, 0.2);
+}
